@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>サイバー攻撃に備えよう！サイバーBCP訓練📣ボードゲーム</h1>
+      <ol class="top">ゲームの進め方
+        <li>イベントカードをクリックし、発生した攻撃（イベント）の内容を確認しましょう</li>
+        <li>イベントカードで発生した状況に応じ、初動対応として適切なものを10枚のカードから3枚クリックし、カードをめくります</li>
+        <li>カードをめくると、発生した攻撃に対する説明と点数が記載されているので確認しましょう</li>
+        <li>点数は、対策優先度の高いカードほど高得点です。満点は100×3で300点です</li>
+      </ol>
+  </header>
+
+  <div class="flex">
+    <div class="imagebox">
+      <img src="images/EventA.png" id="EventA" onclick="cangeCardA()" alt="イベントA" width="200px" height="335px"> <br>
+      <img src="images/vbimage.png" alt="ウィルス検知" width="225px" height="225px">
+    </div>
+    <div class="select-card">
+    <div id="EventA-card-up"></div> 
+    <div id="EventA-card-under"></div>
+    <div class="score" id="score"></div>
+    </div>
+  </div>
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
