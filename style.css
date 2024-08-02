@@ -1,0 +1,51 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.flex div{
+  justify-content: center;
+  margin: 10px;
+}
+
+.top{
+  padding: 1em  3em;
+  margin: 1em 6em;
+  font-weight: bold;
+  color: black;/*文字色*/
+  background: #FFF;
+  border: solid 3px #6091d3;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+
+.top li{
+  margin: 0; 
+  padding: 0;
+}
+
+.score{
+  background: #6091d3;
+  border: solid 3px #6091d3;/*線*/
+  border-radius: 10px;/*角の丸み*/
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+
+
+
+
